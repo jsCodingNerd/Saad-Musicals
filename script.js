@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Let Me Love You - Justin Biber", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Ed Sheeran - Galway Girl", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Ed Sheeran - Photograph ", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Imagine Dragons - Believer", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Baby - Justin Bieber ", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Sabrina Carpenter - Espresso", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Sorry! - Justin Biber", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Photograph - Ed Sheeran", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Despacito - imagine Dragons", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Let Me Love You - Justin Biber", filePath: "1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Ed Sheeran - Galway Girl", filePath: "2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Ed Sheeran - Photograph ", filePath: "3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Imagine Dragons - Believer", filePath: "4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Baby - Justin Bieber ", filePath: "5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Sabrina Carpenter - Espresso", filePath: "6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Sorry! - Justin Biber", filePath: "7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Photograph - Ed Sheeran", filePath: "8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Despacito - imagine Dragons", filePath: "10.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
