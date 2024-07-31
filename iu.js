@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Love Wins All - IU", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Bluming - IU", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Celebrity - IU ", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Through the Night - IU", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Palette - IU", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "LILAC - IU", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Good Day - IU", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Drama - IU", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "The Meaning of You - IU", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Shopper - IU", filePath: "songs/10.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Love Wins All - IU", filePath: "1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Bluming - IU", filePath: "2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Celebrity - IU ", filePath: "3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Through the Night - IU", filePath: "4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Palette - IU", filePath: "5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "LILAC - IU", filePath: "6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Good Day - IU", filePath: "7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Drama - IU", filePath: "8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "The Meaning of You - IU", filePath: "9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Shopper - IU", filePath: "10.mp3", coverPath: "covers/1.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
