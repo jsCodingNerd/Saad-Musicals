@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "3D - Jungook", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Butter - Jungook", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Dreamers - Jungook ", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Fire - Jungook", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Standing next to You - Jungook ", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Fake Love - Jungook", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Dynamite - Jungook", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Idol - Jungkook", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Please Dont change - Jungkook", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Mic Drop - Jungkook", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "3D - Jungook", filePath: "1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Butter - Jungook", filePath: "2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Dreamers - Jungook ", filePath: "3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Fire - Jungook", filePath: "4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Standing next to You - Jungook ", filePath: "5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Fake Love - Jungook", filePath: "6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Dynamite - Jungook", filePath: "7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Idol - Jungkook", filePath: "8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Please Dont change - Jungkook", filePath: "9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Mic Drop - Jungkook", filePath: "10.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
