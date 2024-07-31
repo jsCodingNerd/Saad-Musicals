@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Please Please Please - Sabrina Carpentar", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Feather - Sabrina Carpentar", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Nonsense - Sabrina Carpentar ", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Because I liked a boy - Sabrina Carpentar", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "A nonsense christmas - Sabrina Carpentar ", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Thumbs - Sabrina Carpentar", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Read Your Mind - Sabrina Carpentar", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Skin - Sabrina Carpentar", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Vicious - Sabrina Carpentar", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Opposite - Sabrina Carpentar", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Please Please Please - Sabrina Carpentar", filePath: "1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Feather - Sabrina Carpentar", filePath: "2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Nonsense - Sabrina Carpentar ", filePath: "3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Because I liked a boy - Sabrina Carpentar", filePath: "4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "A nonsense christmas - Sabrina Carpentar ", filePath: "5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Thumbs - Sabrina Carpentar", filePath: "6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Read Your Mind - Sabrina Carpentar", filePath: "7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Skin - Sabrina Carpentar", filePath: "8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Vicious - Sabrina Carpentar", filePath: "9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Opposite - Sabrina Carpentar", filePath: "10.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
