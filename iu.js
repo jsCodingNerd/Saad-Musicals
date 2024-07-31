@@ -1,4 +1,4 @@
-console.log("Welcome to Spotify");
+console.log("Welcome to Saad Musicals");
 
 // Initialize the Variables
 let songIndex = 0;
