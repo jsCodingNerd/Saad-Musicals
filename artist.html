@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad Musical - Artists</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="artist.css"> 
+</head>
+<body>
+    <nav>
+        <ul id = "artist">
+            <li class="brand"><img src="logo.png" alt="Spotify"> SM</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="artist.html">Artists</a></li>
+            <li><a href="login.html" class="nav-link">Login</a></li>
+            <li><a href="signup.html" class="nav-link">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <div class="artist-container">
+        <div class="artist-card" onclick="window.location.href='justin.html';">
+            <img src="justin.jpg" alt="Justin Bieber">
+            <div class="artist-info">
+                <h2>Justin Bieber</h2>
+                <p>Justin Drew Bieber, CC (born March 1, 1994, in Stratford, Ontario, Canada) is a Canadian singer and songwriter. He was discovered by his manager Scooter Braun from his YouTube videos in 2008.</p>
+            </div>
+        </div>
+
+        <div class="artist-card" onclick="window.location.href='jungkook.html';">
+            <img src="jungkook.jpg" alt="Jungkook">
+            <div class="artist-info">
+                <h2>Jungkook</h2>
+                <p>Jeon Jung-kook is a South Korean singer, songwriter, and dancer. He rose to prominence as a member and vocalist of the South Korean boy band BTS.</p>
+            </div>
+        </div>
+
+        <div class="artist-card" onclick="window.location.href='sabrina.html';">
+            <img src="sabrina.jpg" alt="Sabrina Carpenter">
+            <div class="artist-info">
+                <h2>Sabrina Carpenter</h2>
+                <p>Sabrina Carpenter has enchanted an audience of millions as a singer, songwriter, actress and style icon. With her music, she has delivered one anthem after another on stage and in the studio, earning multiple gold certifications.</p>
+            </div>
+        </div>
+
+        <div class="artist-card" onclick="window.location.href='ed.html'">
+            <img src="ed1.jpg" alt="Ed Sheeran">
+            <div class="artist-info">
+                <h2>Ed Sheeran</h2>
+                <p>Edward Christopher Sheeran MBE (/ˈʃɪərən/ SHEER-ən; born 17 February 1991) is an English singer-songwriter. </p>
+            </div>
+        </div>
+
+        <div class="artist-card" onclick="window.location.href='IU.html';">
+            <img src="iu.jpg" alt="IU">
+            <div class="artist-info">
+                <h2>IU</h2>
+                <p>IU was born Lee Ji-eun on May 16, 1993, in Songjeong-dong, Seoul, South Korea. According to IU, she was born into the Jeonju Yi clan, the same clan as the former Korean monarchy.</p>
+            </div>
+        </div>
+
+        <!-- Add more artist cards as needed -->
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- FontAwesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
